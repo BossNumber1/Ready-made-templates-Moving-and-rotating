@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.app {
+    position: relative;
+    width: 1170px;
+    height: 362px;
+    top: 10px;
+    left: calc(50% - 1170px / 2);
+    border: 0.5px solid #369cb7;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+}
+
+.titlePage {
+    position: relative;
+    top: 29px;
+    text-align: center;
+    /* left: 343px; */
+    width: 1170px;
+    height: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2f2f2f;
+}
+
+.submit input {
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #369cb7;
+    flex-direction: column;
+    padding: 20px;
+    width: 200px;
+    height: 40px;
+    background: #369cb7;
+    border: 0.5px solid #369cb7;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 47px;
+    margin-left: 505px;
+    margin-top: 31px;
+}
+
+.table {
+    /* position: absolute; */
+    position: relative;
+    width: 370px;
+    height: 177px;
+    top: 85px;
+    left: 200px;
+    /* left: 334px;
+    top: 328px; */
+}
+
+.line,
+.lineTitle {
+    display: flex;
+    /* background-color: orange; */
+}
+
+.line div,
+.lineTitle div {
+    border: 1px solid #cccccc;
+    width: 185px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.line div {
+    color: #2f2f2f;
+}
+
+.lineTitle div {
+    background: #205b64;
+    color: white;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    /* position: absolute; */
+    width: 61px;
+    height: 38px;
+    left: 581px;
+    top: 375px;
+
+    background: #ffffff;
+    border: 1.4px solid #2f2f2f;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.tableSubjects {
+    display: flex;
+}
+
+.subjects {
+    background-color: orange;
+    /* position: relative; */
+    position: absolute;
+    left: 751.25px;
+    top: 105px;
+}
+
+.pencilRed {
+    /* position: relative; */
+    position: absolute;
+    top: 83.86px;
+    left: 20px;
+}
+
+.pencilBlue {
+    /* position: relative; */
+    position: absolute;
+    top: 34.18px;
+    left: 73px;
+}
+
+.pencilGreen {
+    /* position: relative; */
+    position: absolute;
+    top: 33.68px;
+    left: 159.02px;
+}
+
+/* ruler styles */
+
+.ruler {
+    position: absolute;
+    top: 121px;
+    display: flex;
+}
+
+.leftEdge,
+.rightEdge {
+    display: flex;
+    width: 50px;
+    height: 57px;
+    position: absolute;
+}
+
+.rightEdge {
+    left: 81%;
+}
